@@ -1,0 +1,21 @@
+:root {
+  --bg: #f6f7f9;
+  --panel: #ffffff;
+  --border: #e4e7ec;
+  --text: #1a2233;
+  --text-2: #6b7486;
+  --primary: #2f6bff;
+  --primary-weak: #eaf0ff;
+  --ok: #12805c;
+  --warn: #b25e00;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+}
